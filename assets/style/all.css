@@ -14006,9 +14006,6 @@ body {
           height: 530px; } }
       @media (max-width: 767px) {
         .section-value .value-brand {
-          height: 500px; } }
-      @media (max-width: 576px) {
-        .section-value .value-brand {
           height: 480px; } }
       .section-value .value-brand-item {
         display: flex;
