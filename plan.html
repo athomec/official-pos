@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+	<title>好點POS | 就是好點</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="好點POS,就是好點,POS,POS機">
+	<meta name="description" content="好點POS | 就是好點" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta property="og:site_name" content="image.png" />
+	<meta property="og:image" content="./assets/images/fb-img.png" />
+	<!--分享設定-->
+	<link rel="icon" href="./assets/images/favicon.png" />
+	<!--iconfont設定-->
+	<link rel="stylesheet" href="./assets/style/all.css">
+	<!--css設定-->
+</head>
+
+<body>
+	<!-- Messenger 洽談外掛程式 Code -->
+	<div id="fb-root"></div>
+	<!-- Your 洽談外掛程式 code -->
+	<div id="fb-customer-chat" class="fb-customerchat"></div>
+	<script>
+		var chatbox = document.getElementById('fb-customer-chat');
+		chatbox.setAttribute("page_id", "118089081173417");
+		chatbox.setAttribute("attribution", "biz_inbox");
+	</script>
+	<!-- Your SDK code -->
+	<script>
+		window.fbAsyncInit = function () {
+			FB.init({
+				xfbml: true,
+				version: 'v15.0'
+			});
+		};
+		(function (d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<!-- 洽談外掛程式 結束 -->
+	<header>
+		<nav class="navbar navbar-expand-md fixed-top js-nav">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<h1 class="mb-0"><img src="./assets/images/logo.svg" alt="好點POS"></h1>
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+					aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<img src="./assets/images/ic-menu.svg" alt="主選單">
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav mb-2 mb-md-0 ms-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">首頁</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="plan.html">方案介紹</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="case.html">案例</a>
+						</li>
+						<li class="nav-item">
+							<a href="#contact" class="btn btn-dark-gray900">聯絡我們</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!--頁面開始-->
+	<div class="wrapper">
+		
+<!--banner區塊開始-->
+<div class="carousel slide page-slide" data-bs-ride="false" id="pslide">
+	<!--<div class="carousel-indicators d-flex d-md-none">
+		<button type="button" data-bs-target="#pslide" data-bs-slide-to="0" class="active"></button>
+		<button type="button" data-bs-target="#pslide" data-bs-slide-to="1"></button>
+		<button type="button" data-bs-target="#pslide" data-bs-slide-to="2"></button>
+	</div>-->
+	<div class="carousel-inner">
+		<div class="carousel-item page-slide-item active">
+			<img src="./assets/images/plan-banner.jpg" alt="好點 POS 不只幫你省，還能幫你賺！" class="d-none d-md-block">
+			<img src="./assets/images/plan-banner-mobile.jpg" alt="好點 POS 就是好點" class="d-block d-md-none">
+			<div class="carousel-caption page-slide-caption">
+				<h2 class="page-slide-caption-title">
+					好點 <span class="primary-color page-slide-en">POS</span> 不只<span
+						class="primary-color">幫你省，</span><br>
+					還能<span class="primary-color">幫你</span><span class="page-slide-highlight">賺</span>！
+				</h2>
+				<p class="page-slide-caption-txt mb-4">
+					用戶專屬推薦活動，推薦滿 <span class="page-slide-caption-txt-lg">5</span> 位好友<span
+						class="danger-dark-color">免維護費</span>！<br>
+					滿 <span class="page-slide-caption-txt-lg">10</span> 位好友再享 <span class="danger-dark-color"><span
+							class="page-slide-caption-txt-lg">500</span> 回饋金</span>！
+				</p>
+				<div class="page-slide-action">
+					<button class="carousel-btn btn btn-dark-primary-color font-light" onclick="location.href='#contact'" >立刻聯繫</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--
+	<button class="carousel-control-prev d-none d-md-flex" type="button" data-bs-target="#pslide" data-bs-slide="prev">
+		<img src="./assets/images/ic-arrow.svg" alt="Previous">
+		<span class="visually-hidden">Previous</span>
+	</button>
+	<button class="carousel-control-next d-none d-md-flex" type="button" data-bs-target="#pslide" data-bs-slide="next">
+		<img src="./assets/images/ic-arrow.svg" alt="Next">
+		<span class="visually-hidden">Next</span>
+	</button>
+	-->
+</div>
+
+<!--內容開始-->
+<section class="section section-plan bg-primary-color" data-title="The Plan">
+	<h3 class="section-title mb-5" data-aos="fade-up">
+		<div class="section-title-txt" data-style="light">
+			<p>好點 POS 幫你把錢花在刀口上</p>
+		</div>
+		<span class="section-title-caption">開店不易，別把錢花在不需要的功能</span>
+	</h3>
+	<div class="container">
+		<div class="row justify-content-end plan-inner">
+			<div class="col-md-8">
+				<img src="./assets/images/plan-p1.png" alt="好點 POS 機" class="plan-inner-computer" data-aos="fade-right"
+					data-aos-delay="50">
+				<div data-aos="fade-left" data-aos-delay="50">
+					<div class="plan-inner-container pb-3 pb-md-4">
+						<img src="./assets/images/logo.svg" alt="好點 POS" class="plan-inner-logo">
+						<h4 class="plan-inner-title bg-gray900 white">
+							<div class="plan-inner-title-wrapper">
+								<img src="./assets/images/ic-price-tag.svg" class="me-3"> 新用戶專屬方案，最精準的 POS 系統
+							</div>
+						</h4>
+						<ul class="plan-inner-list pt-md-3">
+							<li class="plan-inner-list-item">
+								價格<p class="plan-inner-list-highlight">$<span>15,999</span></p>
+							</li>
+							<li class="plan-inner-list-item">
+								系統維護費<p class="plan-inner-list-highlight">$<span>500</span>/月</p>
+							</li>
+							<li class="plan-inner-list-item">
+								保固<p class="plan-inner-list-highlight"><span>3</span>年</p>
+							</li>
+							<li class="plan-inner-list-item">
+								設備
+								<ul class="primary-color text-end">
+									<li class="mb-3">POS機 <span class="font-heavy">x1</span></li>
+									<li class="mb-3">出單機 <span class="font-heavy">x1</span></li>
+									<li>錢櫃 <span class="font-heavy">x1</span></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section section-value bg-white" data-title="Value">
+	<h3 class="section-title mb-5" data-aos="fade-up">
+		<div class="section-title-txt">
+			<p>方案比較</p>
+		</div>
+		<span class="section-title-caption">這個價格，看見我們的誠意了吧</span>
+	</h3>
+
+	<div class="container">
+		<div class="value-inner">
+			<ul class="value-brand" data-aos="fade-right">
+				<li class="value-brand-item primary-color">
+					<img src="./assets/images/plan-p2.png" alt="好點 POS">
+					<p>好點 POS<span class="bg-primary-color">軟體 ＋ 硬體</span></p>
+				</li>
+				<li class="value-brand-item">
+					<img src="./assets/images/plan-p3.svg" alt="他牌 A">
+					<p>他牌 A<span class="bg-gray600">軟體 ＋ 硬體</span></p>
+				</li>
+				<li class="value-brand-item">
+					<img src="./assets/images/plan-p3.svg" alt="他牌 B">
+					<p>他牌 B<span class="bg-gray600">純軟體</span></p>
+				</li>
+				<li class="value-brand-item">
+					<img src="./assets/images/plan-p3.svg" alt="他牌 C">
+					<p>他牌 C<span class="bg-gray600">軟體 / 硬體另算</span></p>
+				</li>
+			</ul>
+			<div class="value-inner-chart" data-aos="fade-left">
+				<ul class="value-lines">
+					<li class="value-lines-item" data-percent="1">
+						<span class="value-lines-label">
+							第 1 年
+						</span>
+					</li>
+					<li class="value-lines-item" data-percent="2">
+						<span class="value-lines-label">
+							第 2 年
+						</span>
+					</li>
+					<li class="value-lines-item" data-percent="3">
+						<span class="value-lines-label">
+							第 3 年
+						</span>
+					</li>
+					<li class="value-lines-item" data-percent="4">
+						<span class="value-lines-label">
+							第 4 年
+						</span>
+					</li>
+					<li class="value-lines-item" data-percent="5">
+						<span class="value-lines-label">
+						</span>
+					</li>
+					<li class="value-lines-item" data-percent="6">
+						<span class="value-lines-label">
+							第 N 年
+						</span>
+					</li>
+					<li class="value-lines-item" data-percent="7">
+						<span class="value-lines-label">
+						</span>
+					</li>
+				</ul>
+
+				<div class="value-charts">
+					<ul class="value-charts-list">
+						<li class="value-charts-item" style="width: 33.3%;">
+							<div class="value-charts-label primary-color">
+								<span>15,999</span> 軟硬體 ＋ <span>500</span> /月 (最多只要繳 <span>3</span> 年)
+							</div>
+						</li>
+						<li class="value-charts-item" style="width: 50%;">
+							<div class="value-charts-label">
+								<span>3,000</span> /月 (用多久繳多久)
+							</div>
+						</li>
+						<li class="value-charts-item" style="width: 66%;">
+							<div class="value-charts-label">
+								<span>1,250</span> /月 (用多久繳多久)
+							</div>
+						</li>
+						<li class="value-charts-item" style="width: 100%;">
+							<div class="value-charts-label">
+								<span>40,000</span> 軟硬體 ＋ <span>500</span> /月 (用多久繳多久)
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+</section>
+<section class="section section-around" data-title="All-around">
+	<div class="container">
+		<ul class="row justify-content-center">
+			<div class="col-sm-10 col-md-8 col-xl-9 col-xxl-8 bg-primary-color around-inner">
+				<h3 class="section-title mb-5" data-aos="fade-up">
+					<div class="section-title-txt" data-style="light">
+						<p>一只要一台，全部搞定！</p>
+					</div>
+					<span class="section-title-caption">全方位的功能，一次滿足</span>
+				</h3>
+				<div class="around-inner-main" data-aos="fade-up">
+					<img src="./assets/images/plan-p4.png" alt="好點 POS 機" class="around-inner-img">
+				</div>
+				<div class="around-inner-list">
+					<ul class="around-inner-list-wrapper">
+						<li class="around-inner-card" data-aos="fade-up" data-aos-delay="50">
+							<div class="around-inner-icon">
+								<img src="./assets/images/ic-cloud.svg" alt="雲端管理" class="mb-2">
+							</div>
+							<h4 class="around-inner-title">雲端管理</h4>
+						</li>
+						<li class="around-inner-card" data-aos="fade-up" data-aos-delay="150">
+							<div class="around-inner-icon">
+								<img src="./assets/images/ic-list-order.svg" alt="訂單管理" class="mb-2">
+							</div>
+							<h4 class="around-inner-title">訂單管理</h4>
+						</li>
+					</ul>
+					<ul class="around-inner-list-wrapper">
+						<li class="around-inner-card" data-aos="fade-up" data-aos-delay="250">
+							<div class="around-inner-icon">
+								<img src="./assets/images/ic-set-order.svg" alt="組合產品點餐" class="mb-2">
+							</div>
+							<h4 class="around-inner-title">組合產品點餐</h4>
+						</li>
+						<li class="around-inner-card" data-aos="fade-up" data-aos-delay="350">
+							<div class="around-inner-icon">
+								<img src="./assets/images/ic-easier.svg" alt="化繁為簡" class="mb-2">
+							</div>
+							<h4 class="around-inner-title">化繁為簡</h4>
+						</li>
+					</ul>
+					<ul class="around-inner-list-wrapper">
+						<li class="around-inner-card" data-aos="fade-up" data-aos-delay="450">
+							<div class="around-inner-icon">
+								<img src="./assets/images/ic-coupon.svg" alt="促銷折扣" class="mb-2">
+							</div>
+							<h4 class="around-inner-title">促銷折扣</h4>
+						</li>
+						<li class="around-inner-card" data-aos="fade-up" data-aos-delay="550">
+							<div class="around-inner-icon">
+								<img src="./assets/images/ic-edit-easier.svg" alt="編輯超簡單" class="mb-2">
+							</div>
+							<h4 class="around-inner-title">編輯超簡單</h4>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</ul>
+	</div>
+</section>
+			<!--聯絡我們開始-->
+			<section class="section section-contact" data-title="Contact" id="contact">
+				<h3 class="section-title mb-5" data-aos="fade-up">
+					<div class="section-title-txt">
+						<p>聯絡我們</p>
+					</div>
+					<span class="section-title-caption">預約專人為你服務</span>
+				</h3>
+				<p class="section-contact-txt primary-color mb-4 mb-lg-5" data-aos="fade-up" data-aos-delay="250">
+					開店不容易，但有好點可以很容易，有任何想了解歡迎留下資料，<br>
+					或加入
+					<a href="line://ti/p/@GoodPOS" class="line-inline-btn">
+						<img src="./assets/images/ic-line-logo.svg" alt="line" class="me-1"> LINE
+					</a>
+					與我們討論你寶貴的想法。
+				</p>
+				<div class="container">
+					<div class="row section-contact-form text-start" data-aos="fade-up" data-aos-delay="50">
+						<div class="col-md-5 col-lg-6 section-contact-form-vision"></div>
+						<div class="col-md-7 col-lg-6 bg-gray600 white">
+							<div class="row justify-content-center py-xl-3">
+								<div class="col-10">
+									<form class="row g-3 align-items-end py-4 py-xl-5">
+										<div class="col-md-6">
+											<label for="inputName" class="form-label"><span
+													class="secondary-color">*</span> 姓名</label>
+											<input type="text" class="form-control" id="inputName" placeholder="請輸入姓名">
+										</div>
+										<div class="col-md-6">
+											<label for="inputPhone" class="form-label"><span
+													class="secondary-color">*</span> 電話</label>
+											<input type="text" class="form-control" id="inputPhone" placeholder="請輸入電話">
+										</div>
+										<div class="col-md-6">
+											<label for="inputemail" class="form-label">電子信箱</label>
+											<input type="email" class="form-control" id="inputemail"
+												placeholder="請輸入信箱">
+										</div>
+										<div class="col-md-6">
+											<label for="inputType" class="form-label">店家類型</label>
+											<select id="inputType" class="form-select">
+												<option selected>請選擇縣市</option>
+												<option>飲品店（手搖飲）</option>
+												<option>簡餐店（快炒、合菜）</option>
+												<option>單品店（燒烤、咖啡甜品等）</option>
+											</select>
+										</div>
+										<div class="col-6">
+											<label for="inputCity" class="form-label">店家地址</label>
+											<select id="inputCity" class="form-select">
+												<option selected>請選擇縣市</option>
+												<option>...</option>
+												<option>...</option>
+											</select>
+										</div>
+										<div class="col-6">
+											<label for="inputDistrict" class="visually-hidden">區域</label>
+											<select id="inputDistrict" class="form-select">
+												<option selected>請選擇區域</option>
+												<option>...</option>
+												<option>...</option>
+											</select>
+										</div>
+										<div class="col-12">
+											<label for="inputAdd" class="visually-hidden">地址</label>
+											<input type="text" class="form-control" id="inputAdd" placeholder="請輸入地址">
+										</div>
+										<div class="col-12">
+											<label for="inputMessage" class="form-label">訊息</label>
+											<textarea class="form-control" id="inputMessage" rows="3"
+												placeholder="請輸入訊息"></textarea>
+										</div>
+										<div class="col-12">
+											<button
+												class="btn btn-dark-primary-color section-contact-form-btn w-100">送出</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="d-flex justify-content-center mb-5">
+				<img src="./assets/images/logo.svg" alt="好點 POS" class="footer-logo">
+			</div>
+			<footer class="bg-gray100 mb-4">
+				<ul class="footer">
+					<li class="footer-item">
+						<img src="./assets/images/ic-pin.svg" alt="地址" class="me-1">
+						<a href="https://goo.gl/maps/HvfgyDcqMasx3Ebx6" target="_blank" class="link-gray800">台中市西區精誠路
+							316 號</a>
+					</li>
+					<li class="footer-item">
+						<img src="./assets/images/ic-tel.svg" alt="地址" class="me-1">
+						(04) 2320 - 0258
+					</li>
+					<li class="footer-item">
+						<img src="./assets/images/ic-mail.svg" alt="地址" class="me-1">
+						<a href="mailto:Artribr@gmail.com" target="_blank" class="link-gray800">Artribr@gmail.com</a>
+					</li>
+					<li class="footer-item" data-con="social">
+						<a href="line://ti/p/@GoodPOS" class="link-img me-3">
+							<img src="./assets/images/ic-line-square.svg" alt="line">
+						</a>
+						<a href="https://www.facebook.com/goodpos.go" target="_blank" class="link-img">
+							<img src="./assets/images/ic-fb-square.svg" alt="facebook">
+						</a>
+					</li>
+				</ul>
+				<a href="#" class="gotop">Top</a>
+			</footer>
+			<div class="footer-copyright text-center mb-4">© 2022 Aritribr</div>
+	</div>
+	<!-- SCRIPTS -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src='assets/js/jquery-ui.min.js'></script>
+	<script src="assets/js/bootstrap.bundle.js"></script>
+	<script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+	<script src="assets/js/script.js"></script>
+	<script src="assets/js/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	<script>$(".nav-item").eq(1).find(".nav-link").addClass("active");</script>
+</body>
+
+</html>

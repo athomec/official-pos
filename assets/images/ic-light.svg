@@ -1,0 +1,10 @@
+<svg id="ic-light" xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63">
+  <g id="Ellipse_3" data-name="Ellipse 3" fill="#fff" stroke="#f9bf00" stroke-width="11" opacity="0.2">
+    <circle cx="31.5" cy="31.5" r="31.5" stroke="none"/>
+    <circle cx="31.5" cy="31.5" r="26" fill="none"/>
+  </g>
+  <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(11 11)" fill="#f9bf00" stroke="#ffc84a" stroke-width="11" opacity="0.7">
+    <circle cx="20.5" cy="20.5" r="20.5" stroke="none"/>
+    <circle cx="20.5" cy="20.5" r="15" fill="none"/>
+  </g>
+</svg>

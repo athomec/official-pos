@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+	<title>好點POS | 就是好點</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="好點POS,就是好點,POS,POS機">
+	<meta name="description" content="好點POS | 就是好點" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta property="og:site_name" content="image.png" />
+	<meta property="og:image" content="./assets/images/fb-img.png" />
+	<!--分享設定-->
+	<link rel="icon" href="./assets/images/favicon.png" />
+	<!--iconfont設定-->
+	<link rel="stylesheet" href="./assets/style/all.css">
+	<!--css設定-->
+</head>
+
+<body>
+	<!-- Messenger 洽談外掛程式 Code -->
+	<div id="fb-root"></div>
+	<!-- Your 洽談外掛程式 code -->
+	<div id="fb-customer-chat" class="fb-customerchat"></div>
+	<script>
+		var chatbox = document.getElementById('fb-customer-chat');
+		chatbox.setAttribute("page_id", "118089081173417");
+		chatbox.setAttribute("attribution", "biz_inbox");
+	</script>
+	<!-- Your SDK code -->
+	<script>
+		window.fbAsyncInit = function () {
+			FB.init({
+				xfbml: true,
+				version: 'v15.0'
+			});
+		};
+		(function (d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<!-- 洽談外掛程式 結束 -->
+	<header>
+		<nav class="navbar navbar-expand-md fixed-top js-nav">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<h1 class="mb-0"><img src="./assets/images/logo.svg" alt="好點POS"></h1>
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+					aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<img src="./assets/images/ic-menu.svg" alt="主選單">
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav mb-2 mb-md-0 ms-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">首頁</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="plan.html">方案介紹</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="case.html">案例</a>
+						</li>
+						<li class="nav-item">
+							<a href="#contact" class="btn btn-dark-gray900">聯絡我們</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!--頁面開始-->
+	<div class="wrapper">
+		<!--banner區塊開始-->
+<div class="carousel slide index-slide" data-bs-ride="false">
+	<div class="carousel-inner">
+		<div class="carousel-item index-slide-item active">
+			<img src="./assets/images/banner-index.jpg" alt="好點 POS 就是好點" class="d-none d-md-block">
+			<img src="./assets/images/banner-index-mobile.jpg" alt="好點 POS 就是好點" class="d-block d-md-none">
+			<div class="carousel-caption index-slide-caption">
+				<h2 class="index-slide-caption-title">
+					好點 <span class="primary-color">POS</span><br>
+					<img src="./assets/images/ic-point.svg" class="d-inline-block" style="margin-top:-24px"> 就是好點
+				</h2>
+				<p class="index-slide-caption-txt mb-4">最輕鬆快速的點餐體驗</p>
+				<div class="index-slide-caption-action">
+					<button class="carousel-btn btn btn-border-primary-color me-3" onclick="location.href='#contact'" >聯絡我們</button>
+					<button class="carousel-btn btn btn-dark-primary-color font-light" onclick="location.href='#contact'" >購買</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--內容開始-->
+<section class="section section-why bg-white" data-title="Why">
+	<h3 class="section-title mb-5" data-aos="fade-up">
+		<div class="section-title-txt">
+			<p>為什麼你需要好點 POS？</p>
+		</div>
+		<span class="section-title-caption">讓你用最小的心力，掌握你的餐廳</span>
+	</h3>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
+				<div class="card-list bg-gray100 rounded" data-aos="fade-up" data-aos-delay="50">
+					<h4 class="card-list-title" data-order="01">最有<span class="primary-color">競爭力</span>的價格</h4>
+					<img src="./assets/images/ic-price.svg" class="card-list-img" alt="最有競爭力的價格">
+					<p class="card-list-txt">僅15999就能享有完整系統與機台，給剛創業的你，最小的負擔、最高的服務。</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4 mb-3 mb-lg-0">
+				<div class="card-list bg-gray100 rounded" data-aos="fade-up" data-aos-delay="150">
+					<h4 class="card-list-title" data-order="02"><span class="primary-color">精確掌握</span>所有金流</h4>
+					<img src="./assets/images/ic-finance.svg" class="card-list-img" alt="精確掌握所有金流">
+					<p class="card-list-txt">訂單精確掌握，財報系統讓你精準看見商品銷售情形。</p>
+				</div>
+			</div>
+			<div class="col-12 col-lg-4">
+				<div class="card-list bg-gray100 rounded" data-aos="fade-up" data-aos-delay="250">
+					<h4 class="card-list-title" data-order="03"><span class="primary-color">零失誤</span>的點餐體驗</h4>
+					<img src="./assets/images/ic-order.svg" class="card-list-img" alt="零失誤的點餐體驗">
+					<p class="card-list-txt">操作流程快速簡單，無痛導入 POS 系統，讓你在無負擔得到數位服務。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section section-noworry bg-primary-color" data-title="No Worry">
+	<h3 class="section-title mb-5" data-aos="fade-up">
+		<div class="section-title-txt" data-style="light">
+			<p>點餐無煩惱</p>
+		</div>
+		<span class="section-title-caption">好點 POS 是真的好點</span>
+	</h3>
+	<div class="container">
+		<div class="dialogue">
+			<div class="dialogue-item" data-con="start1" data-aos="fade-right" data-aos-delay="50">內用、外送、<br>外帶，確認半天！
+			</div>
+			<div class="dialogue-item bg-primary-xxlight-color" data-con="start2" data-aos="fade-right"
+				data-aos-delay="150">想不起來！</div>
+			<div class="dialogue-item bg-primary-xlight-color" data-con="start3" data-aos="fade-right"
+				data-aos-delay="250">剛剛還沒結的是<br>哪一張單啊？</div>
+			<div class="dialogue-item bg-primary-xxlight-color" data-con="end1" data-aos="fade-left"
+				data-aos-delay="50">都亂掉啦 ~</div>
+			<div class="dialogue-item bg-primary-light-color" data-con="end2" data-aos="fade-left" data-aos-delay="150">
+				今天到底有沒有<br>漏收錢啊？</div>
+			<div class="dialogue-item bg-primary-xlight-color" data-con="end3" data-aos="fade-left"
+				data-aos-delay="250">結帳過程超繁瑣！</div>
+		</div>
+		<div class="dialogue" data-con="character">
+			<div class="worry-female" data-aos="fade-right" data-aos-delay="150"><img src="./assets/images/index-p1.png"
+					alt="內用、外送、外帶，確認半天！"></div>
+			<div class="worry-male" data-aos="fade-left" data-aos-delay="250"><img src="./assets/images/index-p2.png"
+					alt="今天到底有沒有漏收錢啊？"></div>
+		</div>
+		<div class="row justify-content-center" data-con="worry-main">
+			<div class="col-md-8">
+				<div class="worry-main-inner" data-aos="fade-up" data-aos-delay="550">
+					<img src="./assets/images/index-p3.png" alt="好點 POS 機" class="worry-main-inner-computer mb-3">
+					<img src="./assets/images/logo-short.svg" alt="好點 POS" class="worry-main-inner-logo mb-4">
+					<ul class="numberl-circle-list">
+						<li class="numberl-circle-list-item mb-3" data-order="01">篩選器超方便，幫你迅速找到訂單！</li>
+						<li class="numberl-circle-list-item mb-3" data-order="02">訂單頁面標示清楚，先結後結都不是問題！</li>
+						<li class="numberl-circle-list-item mb-3" data-order="03">快速結帳規劃，讓你三秒搞定付款！</li>
+						<li class="numberl-circle-list-item" data-order="04">販售品項、財務報表一鍵清楚呈現！</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section section-know bg-white" data-title="Get to know" data-subtitle="Our Advantage">
+	<h3 class="section-title mb-5" data-aos="fade-up">
+		<div class="section-title-txt" data-style="primary">
+			<p>好點 POS 三大優勢</p>
+		</div>
+		<span class="section-title-caption">開店最佳解答</span>
+	</h3>
+
+	<div class="container">
+		<div class="row gx-xl-5 text-start know-list mb-5 mb-md-0">
+			<div class="col-md-7">
+				<img src="./assets/images/index-p4.png" alt="不用學！拿到就會用的系統！" class="know-list-pic" data-aos="fade-right">
+			</div>
+			<div class="col-md-5">
+				<div class="know-list-txt" data-aos="fade-left">
+					<div class="know-list-caption">
+						<span class="me-3 font-bold">01</span><img src="./assets/images/ic-easy.svg"
+							alt="不用學！拿到就會用的系統！">
+					</div>
+					<h4 class="know-list-title"><span>不用學！</span> 拿到就會用的系統！</h4>
+					<p>嚴謹的介面設計與體驗設計，讓店家可以不需要學習就可以使用，達到真正的無痛導入 POS ，讓點餐、結帳、出單等過程一目了然，讓你一次使用就上手。</p>
+				</div>
+			</div>
+		</div>
+		<div class="row gx-xl-5 text-start know-list mb-5 mb-md-0" data-dirc="goleft">
+			<div class="col-md-5 order-2 order-md-1">
+				<div class="know-list-txt" data-aos="fade-right">
+					<div class="know-list-caption">
+						<span class="me-3 font-bold">02</span><img src="./assets/images/ic-fast.svg"
+							alt="不用學！拿到就會用的系統！">
+					</div>
+					<h4 class="know-list-title">點餐、出單、結帳，<span>就是快！</span></h4>
+					<p>好點 POS 讓你的作業流程不僅僅是快，更要 0 失誤，直覺式的操作，讓你不需要訓練，也能 100% 正確點餐。</p>
+				</div>
+			</div>
+			<div class="col-md-7 order-1 order-md-2">
+				<img src="./assets/images/index-p5.png" alt="不用學！拿到就會用的系統！" class="know-list-pic ms-auto"
+					data-aos="fade-left">
+			</div>
+		</div>
+		<div class="row gx-xl-5 text-start know-list">
+			<div class="col-md-7">
+				<img src="./assets/images/index-p6.png" alt="不用學！拿到就會用的系統！" class="know-list-pic" data-aos="fade-right">
+			</div>
+			<div class="col-md-5">
+				<div class="know-list-txt" data-aos="fade-left">
+					<div class="know-list-caption">
+						<span class="me-3 font-bold">03</span><img src="./assets/images/ic-dinning.svg"
+							alt="不只管外帶，還能管內用！">
+					</div>
+					<h4 class="know-list-title">不只管外帶，<span>還能管內用！</span> </h4>
+					<p>哪一桌還在吃，你都看得到，桌面系統就是這麼好用，不必櫃檯店內兩邊跑，讓好點 POS 幫你看好！</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section section-all" data-title="All In One">
+	<h3 class="section-title mb-5" data-aos="fade-up">
+		<div class="section-title-txt" data-style="primary">
+			<p>一台搞定一間店！</p>
+		</div>
+		<span class="section-title-caption">面面俱到，提供最重要的</span>
+	</h3>
+	<div class="container">
+		<ul class="row">
+			<div class="col-sm-6 col-md-4 mb-4">
+				<div class="circle-card" data-aos="fade-up" data-aos-delay="50">
+					<div class="circle-card-img">
+						<img src="./assets/images/ic-analysis.svg" alt="財報分析">
+					</div>
+					<h4 class="circle-card-title">財報分析</h4>
+					<p class="circle-card-txt">熱賣商品、交班清點，都能一鍵搞定，解決你最困擾的數學難題！</p>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 mb-4">
+				<div class="circle-card" data-aos="fade-up" data-aos-delay="150">
+					<div class="circle-card-img">
+						<img src="./assets/images/ic-set.svg" alt="組合產品點餐">
+					</div>
+					<h4 class="circle-card-title">組合產品點餐</h4>
+					<p class="circle-card-txt">套餐加點、品項細節調整，通通都能做到！</p>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 mb-4">
+				<div class="circle-card" data-aos="fade-up" data-aos-delay="250">
+					<div class="circle-card-img">
+						<img src="./assets/images/ic-sale.svg" alt="促銷折扣">
+					</div>
+					<h4 class="circle-card-title">促銷折扣</h4>
+					<p class="circle-card-txt">不論是整單優惠，還是單品優惠，隨時都能根據店內活動調整。</p>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 mb-4">
+				<div class="circle-card" data-aos="fade-up" data-aos-delay="50">
+					<div class="circle-card-img">
+						<img src="./assets/images/ic-order-manage.svg" alt="訂單管理">
+					</div>
+					<h4 class="circle-card-title">訂單管理</h4>
+					<p class="circle-card-txt">內用、外帶、已結帳、未結帳已狀態作為篩選分類！</p>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 mb-4">
+				<div class="circle-card" data-aos="fade-up" data-aos-delay="150">
+					<div class="circle-card-img">
+						<img src="./assets/images/ic-table.svg" alt="桌位管理">
+					</div>
+					<h4 class="circle-card-title">桌位管理</h4>
+					<p class="circle-card-txt">內用桌號方便管理，一眼掌握內用狀況。</p>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4 mb-4">
+				<div class="circle-card" data-aos="fade-up" data-aos-delay="250">
+					<div class="circle-card-img">
+						<img src="./assets/images/ic-edit.svg" alt="菜單編輯超簡單">
+					</div>
+					<h4 class="circle-card-title">菜單編輯超簡單</h4>
+					<p class="circle-card-txt">告別工程師才看得懂的介面，給你最簡單快速的方法。</p>
+				</div>
+			</div>
+		</ul>
+	</div>
+</section>
+<section class="section section-answer" data-title="The" data-subtitle="Only Answer">
+	<h3 class="section-title mb-5" data-aos="fade-up">
+		<div class="section-title-txt" data-style="primary">
+			<p>一步到位最划算</p>
+		</div>
+		<span class="section-title-caption">只要一台，搞定你的前台</span>
+	</h3>
+	<div class="section-answer-inner text-start" data-aos="fade-up" data-aos-delay="250">
+		<img src="./assets/images/index-p7.png" alt="開店唯一解答" class="section-answer-img">
+		<h4 class="section-answer-title mb-4">開店<br>唯一解答</h4>
+		<a href="#" class="section-answer-btn hvr-sweep-to-right mb-2 mb-md-4">
+			瞭解更多
+			<span class="section-answer-icon"><img src="./assets/images/ic-right-arrow.svg" alt="瞭解更多"></span>
+		</a>
+		<p>POS 軟體 ＋ POS 機 ＋ 出單機 ＋ 錢櫃</p>
+	</div>
+</section>
+			<!--聯絡我們開始-->
+			<section class="section section-contact" data-title="Contact" id="contact">
+				<h3 class="section-title mb-5" data-aos="fade-up">
+					<div class="section-title-txt">
+						<p>聯絡我們</p>
+					</div>
+					<span class="section-title-caption">預約專人為你服務</span>
+				</h3>
+				<p class="section-contact-txt primary-color mb-4 mb-lg-5" data-aos="fade-up" data-aos-delay="250">
+					開店不容易，但有好點可以很容易，有任何想了解歡迎留下資料，<br>
+					或加入
+					<a href="line://ti/p/@GoodPOS" class="line-inline-btn">
+						<img src="./assets/images/ic-line-logo.svg" alt="line" class="me-1"> LINE
+					</a>
+					與我們討論你寶貴的想法。
+				</p>
+				<div class="container">
+					<div class="row section-contact-form text-start" data-aos="fade-up" data-aos-delay="50">
+						<div class="col-md-5 col-lg-6 section-contact-form-vision"></div>
+						<div class="col-md-7 col-lg-6 bg-gray600 white">
+							<div class="row justify-content-center py-xl-3">
+								<div class="col-10">
+									<form class="row g-3 align-items-end py-4 py-xl-5">
+										<div class="col-md-6">
+											<label for="inputName" class="form-label"><span
+													class="secondary-color">*</span> 姓名</label>
+											<input type="text" class="form-control" id="inputName" placeholder="請輸入姓名">
+										</div>
+										<div class="col-md-6">
+											<label for="inputPhone" class="form-label"><span
+													class="secondary-color">*</span> 電話</label>
+											<input type="text" class="form-control" id="inputPhone" placeholder="請輸入電話">
+										</div>
+										<div class="col-md-6">
+											<label for="inputemail" class="form-label">電子信箱</label>
+											<input type="email" class="form-control" id="inputemail"
+												placeholder="請輸入信箱">
+										</div>
+										<div class="col-md-6">
+											<label for="inputType" class="form-label">店家類型</label>
+											<select id="inputType" class="form-select">
+												<option selected>請選擇縣市</option>
+												<option>飲品店（手搖飲）</option>
+												<option>簡餐店（快炒、合菜）</option>
+												<option>單品店（燒烤、咖啡甜品等）</option>
+											</select>
+										</div>
+										<div class="col-6">
+											<label for="inputCity" class="form-label">店家地址</label>
+											<select id="inputCity" class="form-select">
+												<option selected>請選擇縣市</option>
+												<option>...</option>
+												<option>...</option>
+											</select>
+										</div>
+										<div class="col-6">
+											<label for="inputDistrict" class="visually-hidden">區域</label>
+											<select id="inputDistrict" class="form-select">
+												<option selected>請選擇區域</option>
+												<option>...</option>
+												<option>...</option>
+											</select>
+										</div>
+										<div class="col-12">
+											<label for="inputAdd" class="visually-hidden">地址</label>
+											<input type="text" class="form-control" id="inputAdd" placeholder="請輸入地址">
+										</div>
+										<div class="col-12">
+											<label for="inputMessage" class="form-label">訊息</label>
+											<textarea class="form-control" id="inputMessage" rows="3"
+												placeholder="請輸入訊息"></textarea>
+										</div>
+										<div class="col-12">
+											<button
+												class="btn btn-dark-primary-color section-contact-form-btn w-100">送出</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="d-flex justify-content-center mb-5">
+				<img src="./assets/images/logo.svg" alt="好點 POS" class="footer-logo">
+			</div>
+			<footer class="bg-gray100 mb-4">
+				<ul class="footer">
+					<li class="footer-item">
+						<img src="./assets/images/ic-pin.svg" alt="地址" class="me-1">
+						<a href="https://goo.gl/maps/HvfgyDcqMasx3Ebx6" target="_blank" class="link-gray800">台中市西區精誠路
+							316 號</a>
+					</li>
+					<li class="footer-item">
+						<img src="./assets/images/ic-tel.svg" alt="地址" class="me-1">
+						(04) 2320 - 0258
+					</li>
+					<li class="footer-item">
+						<img src="./assets/images/ic-mail.svg" alt="地址" class="me-1">
+						<a href="mailto:Artribr@gmail.com" target="_blank" class="link-gray800">Artribr@gmail.com</a>
+					</li>
+					<li class="footer-item" data-con="social">
+						<a href="line://ti/p/@GoodPOS" class="link-img me-3">
+							<img src="./assets/images/ic-line-square.svg" alt="line">
+						</a>
+						<a href="https://www.facebook.com/goodpos.go" target="_blank" class="link-img">
+							<img src="./assets/images/ic-fb-square.svg" alt="facebook">
+						</a>
+					</li>
+				</ul>
+				<a href="#" class="gotop">Top</a>
+			</footer>
+			<div class="footer-copyright text-center mb-4">© 2022 Aritribr</div>
+	</div>
+	<!-- SCRIPTS -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src='assets/js/jquery-ui.min.js'></script>
+	<script src="assets/js/bootstrap.bundle.js"></script>
+	<script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+	<script src="assets/js/script.js"></script>
+	<script src="assets/js/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	<script>$(".nav-item").eq(0).find(".nav-link").addClass("active");</script>
+</body>
+
+</html>

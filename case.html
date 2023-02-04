@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+	<title>好點POS | 就是好點</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="好點POS,就是好點,POS,POS機">
+	<meta name="description" content="好點POS | 就是好點" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta property="og:site_name" content="image.png" />
+	<meta property="og:image" content="./assets/images/fb-img.png" />
+	<!--分享設定-->
+	<link rel="icon" href="./assets/images/favicon.png" />
+	<!--iconfont設定-->
+	<link rel="stylesheet" href="./assets/style/all.css">
+	<!--css設定-->
+</head>
+
+<body>
+	<!-- Messenger 洽談外掛程式 Code -->
+	<div id="fb-root"></div>
+	<!-- Your 洽談外掛程式 code -->
+	<div id="fb-customer-chat" class="fb-customerchat"></div>
+	<script>
+		var chatbox = document.getElementById('fb-customer-chat');
+		chatbox.setAttribute("page_id", "118089081173417");
+		chatbox.setAttribute("attribution", "biz_inbox");
+	</script>
+	<!-- Your SDK code -->
+	<script>
+		window.fbAsyncInit = function () {
+			FB.init({
+				xfbml: true,
+				version: 'v15.0'
+			});
+		};
+		(function (d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<!-- 洽談外掛程式 結束 -->
+	<header>
+		<nav class="navbar navbar-expand-md fixed-top js-nav">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<h1 class="mb-0"><img src="./assets/images/logo.svg" alt="好點POS"></h1>
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+					aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<img src="./assets/images/ic-menu.svg" alt="主選單">
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav mb-2 mb-md-0 ms-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">首頁</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="plan.html">方案介紹</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="case.html">案例</a>
+						</li>
+						<li class="nav-item">
+							<a href="#contact" class="btn btn-dark-gray900">聯絡我們</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!--頁面開始-->
+	<div class="wrapper">
+		
+<!--banner區塊開始-->
+<div class="carousel slide page-slide" data-bs-ride="false" id="pslide">
+	<!--<div class="carousel-indicators d-flex d-md-none">
+		<button type="button" data-bs-target="#pslide" data-bs-slide-to="0" class="active"></button>
+		<button type="button" data-bs-target="#pslide" data-bs-slide-to="1"></button>
+		<button type="button" data-bs-target="#pslide" data-bs-slide-to="2"></button>
+	</div>-->
+	<div class="carousel-inner">
+		<div class="carousel-item page-slide-item active">
+			<img src="./assets/images/case-banner.jpg" alt="成功案例分享-山州魚餐廳" class="d-none d-md-block">
+			<img src="./assets/images/case-banner-mobile.jpg" alt="成功案例分享-山州魚餐廳" class="d-block d-md-none">
+			<div class="carousel-caption page-slide-caption" data-style="normal">
+				<h2 class="page-slide-caption-title">
+					成功案例分享<span class="primary-color"><br>山州魚餐廳</span>
+				</h2>
+				<p class="page-slide-caption-txt mb-4">
+					客人一多就混亂，店務整理起來一個頭兩個大，<br>好點 POS 讓極少的時間發揮最大的價值！
+				</p>
+				<div class="page-slide-action">
+                    <button class="carousel-btn btn btn-border-primary-color me-3">店家故事</button>
+					<button class="carousel-btn btn btn-dark-primary-color font-light" onclick="location.href='#contact'" >預約諮詢</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--
+	<button class="carousel-control-prev d-none d-md-flex" type="button" data-bs-target="#pslide" data-bs-slide="prev">
+		<img src="./assets/images/ic-arrow.svg" alt="Previous">
+		<span class="visually-hidden">Previous</span>
+	</button>
+	<button class="carousel-control-next d-none d-md-flex" type="button" data-bs-target="#pslide" data-bs-slide="next">
+		<img src="./assets/images/ic-arrow.svg" alt="Next">
+		<span class="visually-hidden">Next</span>
+	</button>
+	-->
+</div>
+
+<!--內容開始-->
+<section class="section section-success bg-gray200" data-title="Success Story">
+	<h3 class="section-title mb-5" data-aos="fade-up">
+		<div class="section-title-txt">
+			<p>店家故事</p>
+		</div>
+		<span class="section-title-caption">複雜的店務管理瞬間變簡單了</span>
+	</h3>
+	<div class="container">
+		<div class="row success-inner mb-5 mb-xl-3" data-direction="left">
+			<div class="col-md-6">
+				<img src="./assets/images/case-p1.jpg" alt="店家介紹" class="success-inner-img" data-aos="fade-right" data-aos-delay="50">
+			</div>
+			<div class="col-md-6 d-flex align-items-end">
+					<div class="success-inner-card bg-white" data-aos="fade-left">
+						<h4 class="success-inner-card-title primary-color">店家介紹</h4>
+						<p class="success-inner-card-txt">
+							山州魚是一間以套餐為主的砂鍋魚頭專賣店，販售約 4 到 5 類的餐點，廣受顧客好評，有活動折扣、內用外帶、先後結帳、套餐加點調整等等需求。
+						</p>
+					</div>
+					<img src="./assets/images/ic-shop.svg" class="success-inner-card-bg">
+			</div>
+		</div>
+		<div class="row success-inner mb-5 mb-xl-3" data-direction="right">
+			<div class="col-md-6 d-flex justify-content-md-end align-items-end order-2 order-md-1">
+				<div class="success-inner-card bg-white" data-aos="fade-right">
+					<h4 class="success-inner-card-title primary-color">使用前一團混亂</h4>
+					<p class="success-inner-card-txt">
+						在尖峰時段，內用外帶交錯繁忙；使用傳統菜單紀錄，佔位子而且效率低，除了導致排隊堵塞，也容易出錯，浪費更多時間，訂單更是一團亂。
+					</p>
+				</div>
+				<img src="./assets/images/ic-mess.svg" class="success-inner-card-bg">
+			</div>
+			<div class="col-md-6 order-1 order-md-2">
+				<img src="./assets/images/case-p2.jpg" alt="使用前一團混亂" class="success-inner-img" data-aos="fade-left"
+					data-aos-delay="50">
+			</div>
+		</div>
+		<div class="row success-inner" data-direction="left">
+			<div class="col-md-6">
+				<img src="./assets/images/case-p3.jpg" alt="使用後管理超方便" class="success-inner-img" data-aos="fade-right"
+					data-aos-delay="50">
+			</div>
+			<div class="col-md-6 d-flex align-items-end">
+				<div class="success-inner-card bg-white" data-aos="fade-left">
+					<h4 class="success-inner-card-title primary-color">使用後管理超方便</h4>
+					<p class="success-inner-card-txt">
+						點餐的錯誤大幅降低以外，外帶與內用再也不會搞混，找尋訂單變得更方便，結帳超快速，打烊前的清點更是一目了然，店務變得井然有序！
+					</p>
+				</div>
+				<img src="./assets/images/ic-idea.svg" class="success-inner-card-bg">
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section section-universal" data-title="Universal" data-subtitle="Project">
+	<h3 class="section-title mb-5" data-aos="fade-up">
+		<div class="section-title-txt" data-style="light">
+			<p>好點 POS 就是這麼萬能</p>
+		</div>
+		<span class="section-title-caption">想開哪種店，我們都ＯＫ</span>
+	</h3>
+
+	<div class="container">
+		<div class="row universal-inner justify-content-center">
+			<div class="col-sm-5 col-lg-4 col-xxl-4">
+				<img src="./assets/images/case-p4.png" class="universal-inner-img">
+			</div>
+			<div class="col-sm-7 col-lg-5 col-xxl-4">
+				<div class="universal-inner-card">
+					<h4 class="universal-inner-title">
+						<img src="./assets/images/ic-dessert.svg" alt="早餐店">
+						<span class="secondary-color">早餐店</span>的情境
+					</h4>
+					<ol class="universal-inner-list">
+						<li class="universal-inner-list-item">
+							內用外帶眾多
+							<p>訂單篩選明確，再也沒有找不到的訂單</p>
+						</li>
+						<li class="universal-inner-list-item">
+							餐點搭配複雜
+							<p>可客製化設計菜單，輕鬆應付所有搭配</p>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<div class="row universal-inner justify-content-center">
+			<div class="col-sm-7 col-lg-5 col-xxl-4 d-flex justify-content-sm-end order-2 order-sm-1">
+				<div class="universal-inner-card">
+					<h4 class="universal-inner-title">
+						<img src="./assets/images/ic-meal.svg">
+						<span class="secondary-color">快炒店</span>的情境
+					</h4>
+					<ol class="universal-inner-list">
+						<li class="universal-inner-list-item">
+							先後結單問題
+							<p>出單與結帳，輕鬆搞定先後結帳問題</p>
+						</li>
+						<li class="universal-inner-list-item">
+							反覆加點
+							<p>加點出單，結帳搜尋超方便</p>
+						</li>
+						<li class="universal-inner-list-item">
+							桌位管理
+							<p>內用帶位，桌位狀況一目了然</p>
+						</li>
+					</ol>
+				</div>
+			</div>
+			<div class="col-sm-5 col-lg-4 col-xxl-4 order-1 order-sm-2">
+				<img src="./assets/images/case-p5.png" class="universal-inner-img">
+			</div>
+		</div>
+		<div class="row universal-inner justify-content-center">
+			<div class="col-sm-5 col-lg-4 col-xxl-4">
+				<img src="./assets/images/case-p6.png" class="universal-inner-img">
+			</div>
+			<div class="col-sm-7 col-lg-5 col-xxl-4">
+				<div class="universal-inner-card">
+					<h4 class="universal-inner-title">
+						<img src="./assets/images/ic-drink.svg" alt="飲料店">
+						<span class="secondary-color">飲料店</span>的情境
+					</h4>
+					<ol class="universal-inner-list">
+						<li class="universal-inner-list-item">
+							餐點搭配複雜
+							<p>甜度冰塊調整，全都預設進菜單</p>
+						</li>
+						<li class="universal-inner-list-item">
+							品項分類眾多
+							<p>分類明確，切換迅速，才能最高效的點餐</p>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+			<!--聯絡我們開始-->
+			<section class="section section-contact" data-title="Contact" id="contact">
+				<h3 class="section-title mb-5" data-aos="fade-up">
+					<div class="section-title-txt">
+						<p>聯絡我們</p>
+					</div>
+					<span class="section-title-caption">預約專人為你服務</span>
+				</h3>
+				<p class="section-contact-txt primary-color mb-4 mb-lg-5" data-aos="fade-up" data-aos-delay="250">
+					開店不容易，但有好點可以很容易，有任何想了解歡迎留下資料，<br>
+					或加入
+					<a href="line://ti/p/@GoodPOS" class="line-inline-btn">
+						<img src="./assets/images/ic-line-logo.svg" alt="line" class="me-1"> LINE
+					</a>
+					與我們討論你寶貴的想法。
+				</p>
+				<div class="container">
+					<div class="row section-contact-form text-start" data-aos="fade-up" data-aos-delay="50">
+						<div class="col-md-5 col-lg-6 section-contact-form-vision"></div>
+						<div class="col-md-7 col-lg-6 bg-gray600 white">
+							<div class="row justify-content-center py-xl-3">
+								<div class="col-10">
+									<form class="row g-3 align-items-end py-4 py-xl-5">
+										<div class="col-md-6">
+											<label for="inputName" class="form-label"><span
+													class="secondary-color">*</span> 姓名</label>
+											<input type="text" class="form-control" id="inputName" placeholder="請輸入姓名">
+										</div>
+										<div class="col-md-6">
+											<label for="inputPhone" class="form-label"><span
+													class="secondary-color">*</span> 電話</label>
+											<input type="text" class="form-control" id="inputPhone" placeholder="請輸入電話">
+										</div>
+										<div class="col-md-6">
+											<label for="inputemail" class="form-label">電子信箱</label>
+											<input type="email" class="form-control" id="inputemail"
+												placeholder="請輸入信箱">
+										</div>
+										<div class="col-md-6">
+											<label for="inputType" class="form-label">店家類型</label>
+											<select id="inputType" class="form-select">
+												<option selected>請選擇縣市</option>
+												<option>飲品店（手搖飲）</option>
+												<option>簡餐店（快炒、合菜）</option>
+												<option>單品店（燒烤、咖啡甜品等）</option>
+											</select>
+										</div>
+										<div class="col-6">
+											<label for="inputCity" class="form-label">店家地址</label>
+											<select id="inputCity" class="form-select">
+												<option selected>請選擇縣市</option>
+												<option>...</option>
+												<option>...</option>
+											</select>
+										</div>
+										<div class="col-6">
+											<label for="inputDistrict" class="visually-hidden">區域</label>
+											<select id="inputDistrict" class="form-select">
+												<option selected>請選擇區域</option>
+												<option>...</option>
+												<option>...</option>
+											</select>
+										</div>
+										<div class="col-12">
+											<label for="inputAdd" class="visually-hidden">地址</label>
+											<input type="text" class="form-control" id="inputAdd" placeholder="請輸入地址">
+										</div>
+										<div class="col-12">
+											<label for="inputMessage" class="form-label">訊息</label>
+											<textarea class="form-control" id="inputMessage" rows="3"
+												placeholder="請輸入訊息"></textarea>
+										</div>
+										<div class="col-12">
+											<button
+												class="btn btn-dark-primary-color section-contact-form-btn w-100">送出</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="d-flex justify-content-center mb-5">
+				<img src="./assets/images/logo.svg" alt="好點 POS" class="footer-logo">
+			</div>
+			<footer class="bg-gray100 mb-4">
+				<ul class="footer">
+					<li class="footer-item">
+						<img src="./assets/images/ic-pin.svg" alt="地址" class="me-1">
+						<a href="https://goo.gl/maps/HvfgyDcqMasx3Ebx6" target="_blank" class="link-gray800">台中市西區精誠路
+							316 號</a>
+					</li>
+					<li class="footer-item">
+						<img src="./assets/images/ic-tel.svg" alt="地址" class="me-1">
+						(04) 2320 - 0258
+					</li>
+					<li class="footer-item">
+						<img src="./assets/images/ic-mail.svg" alt="地址" class="me-1">
+						<a href="mailto:Artribr@gmail.com" target="_blank" class="link-gray800">Artribr@gmail.com</a>
+					</li>
+					<li class="footer-item" data-con="social">
+						<a href="line://ti/p/@GoodPOS" class="link-img me-3">
+							<img src="./assets/images/ic-line-square.svg" alt="line">
+						</a>
+						<a href="https://www.facebook.com/goodpos.go" target="_blank" class="link-img">
+							<img src="./assets/images/ic-fb-square.svg" alt="facebook">
+						</a>
+					</li>
+				</ul>
+				<a href="#" class="gotop">Top</a>
+			</footer>
+			<div class="footer-copyright text-center mb-4">© 2022 Aritribr</div>
+	</div>
+	<!-- SCRIPTS -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src='assets/js/jquery-ui.min.js'></script>
+	<script src="assets/js/bootstrap.bundle.js"></script>
+	<script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+	<script src="assets/js/script.js"></script>
+	<script src="assets/js/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+	<script>$(".nav-item").eq(2).find(".nav-link").addClass("active");</script>
+</body>
+
+</html>

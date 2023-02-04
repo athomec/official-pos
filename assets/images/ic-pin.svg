@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <g id="ic-pin" transform="translate(-499 -9076)">
+    <g id="pin" transform="translate(423.032 9076.001)">
+      <path id="Path_304" data-name="Path 304" d="M96.6,4.452A8.823,8.823,0,0,0,89.107,0c-.133,0-.267,0-.4,0a8.823,8.823,0,0,0-7.5,4.45,9.052,9.052,0,0,0-.118,8.944l6.447,11.8.009.016a1.567,1.567,0,0,0,2.719,0l.009-.016,6.447-11.8A9.052,9.052,0,0,0,96.6,4.452Zm-7.7,7.329a3.656,3.656,0,1,1,3.656-3.656A3.66,3.66,0,0,1,88.907,11.781Z" transform="translate(0 0)" fill="#1f89cd"/>
+    </g>
+    <rect id="Rectangle_96" data-name="Rectangle 96" width="26" height="26" transform="translate(499 9076)" fill="none"/>
+  </g>
+</svg>
