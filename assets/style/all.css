@@ -12794,7 +12794,8 @@ body {
       width: 44px;
       height: 44px;
       line-height: 44px;
-      font-size: 0.8rem; } }
+      font-size: 0.8rem;
+      bottom: 68px; } }
   .gotop:hover {
     color: #fff;
     background: #FF9130; }
