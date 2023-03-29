@@ -12789,18 +12789,11 @@ body {
   border-radius: 50%;
   opacity: 0;
   transition: all 0.2s ease; }
-  @media (max-width: 1200px) {
-    .gotop {
-      right: 1rem;
-      bottom: 1rem;
-      width: 50px;
-      height: 50px;
-      line-height: 50px; } }
   @media (max-width: 767px) {
     .gotop {
-      width: 40px;
-      height: 40px;
-      line-height: 40px;
+      width: 44px;
+      height: 44px;
+      line-height: 44px;
       font-size: 0.8rem; } }
   .gotop:hover {
     color: #fff;
