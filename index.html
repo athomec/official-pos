@@ -45,6 +45,30 @@
 		}(document, 'script', 'facebook-jssdk'));
 	</script>
 	<!-- 洽談外掛程式 結束 -->
+	<!--訊息視窗開始-->
+	<div class="modal fade" id="message" data-bs-keyboard="false" tabindex="-1">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h2 class="modal-title fs-5 font-smd font-light" id="staticBackdropLabel">聯絡我們</h2>
+					<button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close">
+						<img src="./assets/images/ic-close.svg" alt="關閉">
+					</button>
+				</div>
+				<div class="modal-body p-3">
+					<p class="text-center primary-color">
+						已成功送出訊息！
+					</p>
+
+				</div>
+				<div class="modal-footer pt-0 px-3">
+					<button type="button" class="modal-action btn btn-dark-gray700 py-2 w-100"
+						data-bs-dismiss="modal">關閉</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--訊息視窗結束-->
 	<header>
 		<nav class="navbar navbar-expand-md fixed-top js-nav">
 			<div class="container">
@@ -391,7 +415,7 @@
 										</div>
 										<div class="col-12">
 											<button
-												class="btn btn-dark-primary-color section-contact-form-btn w-100">送出</button>
+												class="btn btn-dark-primary-color section-contact-form-btn w-100" data-bs-toggle="modal" data-bs-target="#message">送出</button>
 										</div>
 									</form>
 								</div>
