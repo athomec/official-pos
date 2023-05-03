@@ -331,7 +331,7 @@
         </g>
       </g>
     </g>
-    <path id="Path_4507" data-name="Path 4507" d="M13323,325.535,13660,140l297.334,168-312.01,185.333,100,57.333,225.01-134,88.334,50" transform="translate(-787 -1746)" fill="none" stroke="#d7d7d7" stroke-width="3" stroke-dasharray="10 8"/>
+    <path id="Path_4507" data-name="Path 4507" d="M13323,325.535,13660,140l297.334,168-312.01,185.333,100,57.333,225.01-134,88.334,50" transform="translate(-787 -1746)" fill="none" stroke="#d7d7d7" stroke-width="2" stroke-dasharray="8 8"/>
     <text id="門市_POS" data-name="門市 POS" transform="translate(12407 -1510)" fill="#1f89cd" font-size="30" font-family="NotoSansCJKtc-Bold, Noto Sans CJK TC" font-weight="700"><tspan x="0" y="0">門市 POS</tspan></text>
     <text id="多元支付" transform="translate(12713.834 -1226.651)" fill="#1f89cd" font-size="30" font-family="NotoSansCJKtc-Bold, Noto Sans CJK TC" font-weight="700"><tspan x="0" y="0">多元支付</tspan></text>
     <text id="攤車模板" transform="translate(13204 -1499.35)" fill="#1f89cd" font-size="30" font-family="NotoSansCJKtc-Bold, Noto Sans CJK TC" font-weight="700"><tspan x="0" y="0">攤車模板</tspan></text>
@@ -1579,20 +1579,20 @@
         </g>
       </g>
     </g>
-    <path id="Path_4508" data-name="Path 4508" d="M14085.947,476.079,14188,413.333l118.614,66.413" transform="translate(-793.614 -1759.38)" fill="none" stroke="#d7d7d7" stroke-width="3" stroke-dasharray="10 8"/>
-    <g id="Ellipse_74" data-name="Ellipse 74" transform="translate(12519 -1434)" fill="#fff" stroke="#1f87cd" stroke-width="7">
+    <path id="Path_4508" data-name="Path 4508" d="M14085.947,476.079,14188,413.333l118.614,66.413" transform="translate(-793.614 -1759.38)" fill="none" stroke="#d7d7d7" stroke-width="2" stroke-dasharray="8 8"/>
+    <g id="Ellipse_74" data-name="Ellipse 74" transform="translate(12519 -1429)" fill="#fff" stroke="#1f87cd" stroke-width="7">
       <circle cx="10" cy="10" r="10" stroke="none"/>
       <circle cx="10" cy="10" r="6.5" fill="none"/>
     </g>
-    <g id="Ellipse_75" data-name="Ellipse 75" transform="translate(13160 -1456)" fill="#fff" stroke="#1f87cd" stroke-width="7">
+    <g id="Ellipse_75" data-name="Ellipse 75" transform="translate(13165 -1450)" fill="#fff" stroke="#1f87cd" stroke-width="7">
       <circle cx="10" cy="10" r="10" stroke="none"/>
       <circle cx="10" cy="10" r="6.5" fill="none"/>
     </g>
-    <g id="Ellipse_71" data-name="Ellipse 71" transform="translate(12851 -1273)" fill="#fff" stroke="#1f87cd" stroke-width="7">
+    <g id="Ellipse_71" data-name="Ellipse 71" transform="translate(12847 -1262)" fill="#fff" stroke="#1f87cd" stroke-width="7">
       <circle cx="10" cy="10" r="10" stroke="none"/>
       <circle cx="10" cy="10" r="6.5" fill="none"/>
     </g>
-    <g id="Ellipse_72" data-name="Ellipse 72" transform="translate(13274 -1291)" fill="#fff" stroke="#1f87cd" stroke-width="7">
+    <g id="Ellipse_72" data-name="Ellipse 72" transform="translate(13270 -1290)" fill="#fff" stroke="#1f87cd" stroke-width="7">
       <circle cx="10" cy="10" r="10" stroke="none"/>
       <circle cx="10" cy="10" r="6.5" fill="none"/>
     </g>
