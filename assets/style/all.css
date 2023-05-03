@@ -22056,6 +22056,32 @@ body {
   }
 }
 
+.section-highlight {
+  z-index: 2;
+}
+
+@media (max-width: 576px) {
+  .section-highlight img {
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 485px) {
+  .section-highlight img {
+    margin-top: 130px;
+  }
+}
+
+.section-highlight .carousel-caption {
+  top: 30%;
+}
+
+@media (max-width: 767px) {
+  .section-highlight .carousel-caption {
+    top: 0;
+  }
+}
+
 /*--------------------內頁開始------------------*/
 .carousel-indicators [data-bs-target] {
   width: 10px;
@@ -22213,6 +22239,82 @@ body {
 @media (max-width: 485px) {
   .page-slide-item > img {
     width: 600px;
+  }
+}
+
+@media (max-width: 991px) {
+  .page-slide-item[data-con="plan"] {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    height: auto;
+  }
+}
+
+@media (max-width: 1550px) {
+  .page-slide-item[data-con="plan"] img {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .page-slide-item[data-con="plan"] img {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-slide-item[data-con="plan"] img {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .page-slide-item[data-con="plan"] img {
+    max-width: 390px;
+    margin-bottom: 20px;
+  }
+}
+
+.page-slide-item[data-con="plan"] .page-slide-caption {
+  position: static;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: -10px;
+  margin-bottom: 5%;
+}
+
+@media (max-width: 767px) {
+  .page-slide-item[data-con="plan"] .page-slide-caption {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+}
+
+.page-slide-item[data-con="plan"] .page-slide-caption-title {
+  font-size: 3rem;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+@media (max-width: 1200px) {
+  .page-slide-item[data-con="plan"] .page-slide-caption-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-slide-item[data-con="plan"] .page-slide-caption-title {
+    margin-left: 0;
+    text-align: left;
   }
 }
 
