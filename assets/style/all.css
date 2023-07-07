@@ -12700,12 +12700,20 @@ body {
 /*--------------------主選單開始------------------*/
 .navbar {
   transition: all 0.2s ease; }
-  @media (max-width: 1430px) {
-    .navbar-brand {
-      width: 220px; } }
-  @media (max-width: 767px) {
-    .navbar-brand {
-      width: 180px; } }
+  .navbar-brand {
+    text-indent: -9999px;
+    background: url("../images/logo.svg") no-repeat center;
+    background-size: contain;
+    width: 304px;
+    height: 66px; }
+    @media (max-width: 1430px) {
+      .navbar-brand {
+        width: 220px;
+        height: 50px; } }
+    @media (max-width: 767px) {
+      .navbar-brand {
+        width: 180px;
+        height: 43px; } }
   .navbar-toggler {
     border: 0;
     background: #1F89CD;
