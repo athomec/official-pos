@@ -12737,16 +12737,18 @@ body {
 .navbar.up {
   background: #1F89CD; }
   .navbar.up .navbar-brand {
-    width: 230px; }
+    width: 230px;
+    height: 42px;
+    background: url("../images/logo-white.svg") no-repeat center;
+    background-size: contain; }
     @media (max-width: 1430px) {
       .navbar.up .navbar-brand {
-        width: 220px; } }
+        width: 220px;
+        height: 40px; } }
     @media (max-width: 767px) {
       .navbar.up .navbar-brand {
-        width: 180px; } }
-    .navbar.up .navbar-brand img {
-      transition: all 0.2s ease;
-      filter: invert(100%) sepia(6%) saturate(0%) hue-rotate(70deg) brightness(500%) contrast(108%); }
+        width: 180px;
+        height: 33px; } }
   .navbar.up .nav-link {
     transition: all 0.2s ease;
     color: #fff;
